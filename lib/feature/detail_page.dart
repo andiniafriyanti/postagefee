@@ -23,6 +23,9 @@ class DetailPage extends StatelessWidget {
         child: Column(
           // mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
+            SizedBox(
+              height: 50,
+            ),
             Text(
               'Total Cost',
               style: TextStyle(
@@ -30,16 +33,28 @@ class DetailPage extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
+            SizedBox(
+              height: 20,
+            ),
             Text('Total'),
+            SizedBox(
+              height: 20,
+            ),
             Text('Weight (gram)'),
+            SizedBox(
+              height: 60,
+            ),
             Text(
               'From',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             Text('Province'),
             Text('City'),
+            SizedBox(
+              height: 60,
+            ),
             Text(
-              'From',
+              'To',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             Text('Province'),
