@@ -80,7 +80,7 @@ class DetailPage extends StatelessWidget {
             'Bekasi',
             style: TextStyle(fontSize: 16),
           ),
-          const SizedBox(height: 50),
+          const SizedBox(height: 60),
           Container(
             child: SizedBox(
               width: 377,
@@ -89,13 +89,13 @@ class DetailPage extends StatelessWidget {
                 style: TextButton.styleFrom(
                   backgroundColor: const Color(0xffC94A38),
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(20),
+                    borderRadius: BorderRadius.circular(15),
                   ),
                 ),
                 onPressed: () {},
                 child: const Text(
                   'Change Details',
-                  style: TextStyle(color: Colors.white),
+                  style: TextStyle(color: Colors.white, fontSize: 16),
                 ),
               ),
             ),
