@@ -55,11 +55,13 @@ class DetailPage extends StatelessWidget {
           const SizedBox(height: 15),
           const Text(
             'West Java',
+            textAlign: TextAlign.center,
             style: TextStyle(fontSize: 16),
           ),
           const SizedBox(height: 10),
           const Text(
             'Bekasi',
+            textAlign: TextAlign.center,
             style: TextStyle(fontSize: 16),
           ),
           const SizedBox(
@@ -72,30 +74,35 @@ class DetailPage extends StatelessWidget {
           ),
           const SizedBox(height: 15),
           const Text(
-            'West Java',
+            'East Java',
+            textAlign: TextAlign.center,
             style: TextStyle(fontSize: 16),
           ),
           const SizedBox(height: 10),
           const Text(
-            'Bekasi',
+            'Surabaya',
+            textAlign: TextAlign.center,
             style: TextStyle(fontSize: 16),
           ),
           const SizedBox(height: 60),
-          Container(
-            child: SizedBox(
-              width: 377,
-              height: 48,
-              child: TextButton(
-                style: TextButton.styleFrom(
-                  backgroundColor: const Color(0xffC94A38),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(15),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              child: SizedBox(
+                width: 377,
+                height: 48,
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                    backgroundColor: const Color(0xffC94A38),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
                   ),
-                ),
-                onPressed: () {},
-                child: const Text(
-                  'Change Details',
-                  style: TextStyle(color: Colors.white, fontSize: 16),
+                  onPressed: () {},
+                  child: const Text(
+                    'Change Details',
+                    style: TextStyle(color: Colors.white, fontSize: 16),
+                  ),
                 ),
               ),
             ),
