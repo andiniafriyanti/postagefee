@@ -2,7 +2,6 @@
 //
 //     final costModel = costModelFromJson(jsonString);
 
-import 'package:meta/meta.dart';
 import 'dart:convert';
 
 class CostModel {

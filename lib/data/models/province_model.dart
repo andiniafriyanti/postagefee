@@ -1,8 +1,6 @@
 // To parse this JSON data, do
 //
 //     final provinceModel = provinceModelFromJson(jsonString);
-
-import 'package:meta/meta.dart';
 import 'dart:convert';
 
 class ProvinceModel {
