@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "334013633258",
+    "project_id": "postagefee-65da3",
+    "storage_bucket": "postagefee-65da3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334013633258:android:1e73e9293ca97bf8b27d93",
+        "android_client_info": {
+          "package_name": "com.example.postagecheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334013633258-qkmp89rvla7aiojukkk7ljl80ujg0uhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuFyZjuwwZC93bY4rr1H7Y2QrAMmQ5Me0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334013633258-qkmp89rvla7aiojukkk7ljl80ujg0uhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
